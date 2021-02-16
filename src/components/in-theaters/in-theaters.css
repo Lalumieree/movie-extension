@@ -1,0 +1,30 @@
+.previews {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.previews .preview-wrapper {
+  display: flex;
+  width: 120px;
+  height: 260px;
+  margin: 0 9px;
+}
+
+.big-view-enter {
+  opacity: 0.01;
+}
+.big-view-enter-active {
+  opacity: 1;
+  transition: all 300ms ease-out;
+}
+.big-view-exit {
+  opacity: 1;
+}
+.big-view-exit-active {
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
